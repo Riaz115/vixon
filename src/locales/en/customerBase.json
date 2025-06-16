@@ -1,0 +1,14 @@
+{
+  "searchbyname": "Search by username ....",
+  "username": "USERNAME",
+  "created": "CREATED",
+  "birthdate": "BIRTHDATE",
+  "phone": "PHONE",
+  "email": "EMAIL",
+  "device": "DEVICE",
+  "cardStatus": "CARD STATUS",
+  "nofound": "No Customer Found",
+  "show": "Show",
+  "shown": "Shown",
+  "from": "from"
+}

@@ -1,0 +1,22 @@
+{
+  "newfilter": "New Fitler",
+  "filterName": "Filter Name",
+  "andConditions": "AND Conditions",
+  "orConditions": "OR Conditions",
+  "addcondition": "Add Conditions",
+  "removeor": "Remove Or",
+  "addorgroup": "+ Add OR Group",
+  "remove": "Remove",
+  "applyfilters": "Apply Fitlers",
+  "reset": "Reset",
+  "noConditionsAdded": "No {{type}} conditions added.",
+  "addfiltercond": "Add Filter Conditions",
+  "selectfiltertype": "Select a Filter Type",
+  "selectcondition": "- Select Condition",
+  "back": "Back",
+  "selectoneormore": "Select One Or More :",
+  "selstartenddate": "Select Start and end dates :",
+  "daterange": "Select date range",
+  "selectDate": "Select Date",
+  "apply": "Apply"
+}

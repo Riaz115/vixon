@@ -1,0 +1,14 @@
+{
+  "delmsg": "customer delete successfully",
+  "failmsg": "failed to delete customer",
+  "updatemsg": "customer updated successfully",
+  "updatefail": "failed to updated customer",
+  "title": "Customer Information",
+  "firstname": "First Name",
+  "info": "Information",
+  "lastname": "Last Name",
+  "dob": "Date Of Birth",
+  "email": "Email",
+  "save": "Save",
+  "delete": "Delete"
+}

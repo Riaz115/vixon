@@ -1,0 +1,22 @@
+{
+  "newfilter": "Nový filter",
+  "filterName": "Názov filtra",
+  "andConditions": "AND podmienky",
+  "orConditions": "OR podmienky",
+  "addcondition": "Pridať podmienky",
+  "removeor": "Odstrániť OR",
+  "addorgroup": "+ Pridať OR skupinu",
+  "remove": "Odstrániť",
+  "applyfilters": "Použiť filtre",
+  "reset": "Resetovať",
+  "noConditionsAdded": "Žiadne {{type}} podmienky neboli pridané.",
+  "addfiltercond": "Pridať podmienky filtra",
+  "selectfiltertype": "Vyberte typ filtra",
+  "selectcondition": "- Vyberte podmienku",
+  "back": "Späť",
+  "selectoneormore": "Vyberte jednu alebo viac:",
+  "selstartenddate": "Vyberte začiatok a koniec dátumu:",
+  "daterange": "Vyberte časový rozsah",
+  "selectDate": "Vyberte dátum",
+  "apply": "Použiť"
+}

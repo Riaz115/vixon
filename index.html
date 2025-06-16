@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <base id="dynamic-base" href="/">
+    <!-- <link id="manifest-link" rel="manifest" /> -->
+    <!-- <link id="manifest-link" rel="manifest" href="./manifest.json" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="/css/react-phone-number-input/style.css"/> -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+    <title>VEXION</title>
+  </head>
+  <style>
+    :root {
+      --cube-size: 90px;
+    }
+    @media (max-width: 768px) {
+      :root {
+        --cube-size: 60px;
+      }
+    }
+    @keyframes rotation {
+      0% {
+        transform: rotateX(45deg) rotateY(0) rotateZ(45deg);
+        animation-timing-function: cubic-bezier(0.17, 0.84, 0.44, 1);
+      }
+      50% {
+        transform: rotateX(45deg) rotateY(0) rotateZ(225deg);
+        animation-timing-function: cubic-bezier(0.76, 0.05, 0.86, 0.06);
+      }
+      100% {
+        transform: rotateX(45deg) rotateY(0) rotateZ(405deg);
+        animation-timing-function: cubic-bezier(0.17, 0.84, 0.44, 1);
+      }
+    }
+
+    @keyframes bouncing {
+      0% {
+        transform: translateY(-40px);
+        animation-timing-function: cubic-bezier(0.76, 0.05, 0.86, 0.06);
+      }
+      45% {
+        transform: translateY(40px);
+        animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+      }
+      100% {
+        transform: translateY(-40px);
+        animation-timing-function: cubic-bezier(0.76, 0.05, 0.86, 0.06);
+      }
+    }
+
+    @keyframes bouncingShadow {
+      0% {
+        transform: translateZ(calc(-1 * var(--cube-size))) scale(1.3);
+        animation-timing-function: cubic-bezier(0.76, 0.05, 0.86, 0.06);
+        opacity: 0.05;
+      }
+      45% {
+        transform: translateZ(0);
+        animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+        opacity: 0.3;
+      }
+      100% {
+        transform: translateZ(calc(-1 * var(--cube-size))) scale(1.3);
+        animation-timing-function: cubic-bezier(0.76, 0.05, 0.86, 0.06);
+        opacity: 0.05;
+      }
+    }
+
+    .scene {
+      position: relative;
+      z-index: 2;
+      height: 98vh;
+      width: 100%;
+      display: grid;
+      place-items: center;
+    }
+
+    .cube-wrapper {
+      transform-style: preserve-3d;
+      animation: bouncing 2s infinite;
+    }
+
+    .cube {
+      transform-style: preserve-3d;
+      transform: rotateX(45deg) rotateZ(45deg);
+      animation: rotation 2s infinite;
+    }
+
+    .cube-faces {
+      transform-style: preserve-3d;
+      height: var(--cube-size);
+      width: var(--cube-size);
+      position: relative;
+      transform-origin: 0 0;
+      transform: translateX(0) translateY(0) translateZ(-40px);
+    }
+
+    .cube-face {
+      position: absolute;
+      inset: 0;
+      background: #110d31ff;
+      border: solid 1px white;
+    }
+
+    .cube-face.shadow {
+      transform: translateZ(calc(-1 * var(--cube-size)));
+      animation: bouncingShadow 2s infinite;
+    }
+
+    .cube-face.top {
+      transform: translateZ(var(--cube-size));
+    }
+
+    .cube-face.front {
+      transform-origin: 0 50%;
+      transform: rotateY(-90deg);
+    }
+
+    .cube-face.back {
+      transform-origin: 0 50%;
+      transform: rotateY(-90deg) translateZ(calc(-1 * var(--cube-size)));
+    }
+
+    .cube-face.right {
+      transform-origin: 50% 0;
+      transform: rotateX(-90deg) translateY(calc(-1 * var(--cube-size)));
+    }
+
+    .cube-face.left {
+      transform-origin: 50% 0;
+      transform: rotateX(-90deg) translateY(calc(-1 * var(--cube-size))) translateZ(var(--cube-size));
+    }
+  </style>
+  <body>
+    <div id="root">
+      <div id="spinner" class="container">
+        <div class="scene">
+          <div class="cube-wrapper">
+            <div class="cube">
+              <div class="cube-faces">
+                <div class="cube-face shadow"></div>
+                <div class="cube-face bottom"></div>
+                <div class="cube-face top"></div>
+                <div class="cube-face left"></div>
+                <div class="cube-face right"></div>
+                <div class="cube-face back"></div>
+                <div class="cube-face front"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script>
+
+      tippy('#myButton', {
+        content: 'My tooltip!',
+      });
+    </script>
+
+      
+    <div id="google_translate_element" style="visibility: hidden;"></div>
+    <!-- <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKDB0lgXhvq5nLsZht0e0obsGeFUScVeI&libraries=places"
+  
+  ></script> -->
+
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="https://pay.google.com/gp/p/js/save.js" async defer></script>
+
+    <script type="module" src="/src/main.jsx"></script>
+ 
+  </body>
+</html>

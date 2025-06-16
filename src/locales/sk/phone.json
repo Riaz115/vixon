@@ -1,0 +1,17 @@
+{
+  "active": "Active",
+  "inactive": "InActive",
+  "detail": "Detail",
+  "title": "New Page Title",
+  "yes": "yes",
+  "showLogoIssue": "Show logo at card issuing form",
+  "continue": "Continue",
+  "notUseful": "  this is something that is not useful for you",
+  "heading": "Stamps count for referrer",
+  "description": "Set stamps count, which customer earn for sharing card via referral program",
+  "farooqKhizar": "Farooq Khizar",
+  "limit": "Limit",
+  "bgColor": "Background Color",
+  "logo": "Logo",
+  "logoDesc": "Recommended size: 480x150 pixels. The minimum height is 150px. Only PNG format. 3 megabytes"
+}

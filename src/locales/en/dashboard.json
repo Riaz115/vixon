@@ -1,0 +1,24 @@
+{
+  "dashboard": "Dashboard",
+  "time": {
+    "Day": "Day",
+    "Week": "Week",
+    "Month": "Month",
+    "Year": "Year",
+    "All Time": "All Time"
+  },
+  "Visits": "Visits",
+  "totalVisits": "Total Visits",
+  "totalPurchaseAmount": "Total purchase Amount",
+  "purchase": "purchase",
+  "totaltransactions": "Total transactions",
+  "transaction": "Transaction",
+  "newclients": "New Clients",
+  "client": "Client",
+  "issuedCards": "Issued Cards",
+  "Cards": "Cards",
+  "device": "Device",
+  "Google Wallet": "Google Wallet",
+  "PWA": "PWA",
+  "Apple Wallet": "Apple Wallet"
+}

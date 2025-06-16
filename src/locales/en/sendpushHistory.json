@@ -1,0 +1,15 @@
+{
+  "history": "History",
+  "deleteSuc": "Notification deleted successfully",
+  "fialDelMsg": "Failed to delete the notification",
+  "deliver": "Delivered to",
+  "copied": "Copied!",
+  "copy": "Copy",
+  "copyReqSendPrnt": "Copy request sent to parent window",
+  "cpytoClipBrd": "Copied to clipboard",
+  "removemsg": "Remove message",
+  "msgwillremove": "Msg Will Be Removed",
+  "sureToDelete": "Are you sure to delete this message",
+  "remove": "Remove",
+  "cancel": "Cancel"
+}

@@ -1,0 +1,19 @@
+{
+  "detail": "Detail",
+  "firstname": "First Name",
+  "last": "Last",
+  "phone": "Phone",
+  "email": "Email",
+  "sumstamcount": "Summary Stamp Count",
+  "stampuntilrew": "Stamps Until the reward",
+  "avialablereward": "Available rewards",
+  "descstatus": "Discount Status",
+  "descper": "Discount Percentage",
+  "rewforfirstvisit": "Reward for the first visit",
+  "companyname": "Company Name",
+  "earnstampmsgs": "Eran Stamp messages",
+  "earnrewmsg": "Earn Reward Message",
+  "termofuse": "Term of use",
+  "isrinfo": "Issur information",
+  "tapformoredetail": "Tap for more detail"
+}

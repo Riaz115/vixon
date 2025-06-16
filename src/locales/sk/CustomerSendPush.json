@@ -1,0 +1,17 @@
+{
+  "title": "Odoslanie zákazníckej push správy",
+  "pushmsg": "Push text v bočnom náhľade služby s emotikonmi 👀 🎫 💬 😍",
+  "sucmsg": "správa úspešne odoslaná",
+  "failmsg": "nepodarilo sa odoslať správu",
+  "sendpushnot": "Odoslať push notifikáciu",
+  "desc": "Táto správa sa zobrazí na uzamknutých obrazovkách telefónov zákazníkov a tiež na zadnej strane ich kariet.",
+  "sendpush": "Odoslať push",
+  "card": "Karta",
+  "schdule": "Harmonogram",
+  "entmsg": "Zadajte svoju správu",
+  "send": "Odoslať",
+  "active": "Aktívny",
+  "inactive": "Neaktívny",
+  "companyname": "Názov spoločnosti",
+  "now": "Teraz"
+}

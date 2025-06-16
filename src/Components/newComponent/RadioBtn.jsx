@@ -1,0 +1,63 @@
+import { Radio } from "@mui/material";
+
+const BpIcon = styled("span")(({ theme }) => ({
+  borderRadius: "50%",
+  width: 20,
+  height: 20,
+  boxShadow:
+    theme.palette.mode === "dark"
+      ? "0 0 0 1px rgb(16 22 26 / 40%)"
+      : "inset 0 0 0 1px rgba(16,22,26,.2), inset 0 -1px 0 rgba(16,22,26,.1)",
+  backgroundColor: theme.palette.mode === "dark" ? "#394b59" : "#f5f8fa",
+  backgroundImage:
+    theme.palette.mode === "dark"
+      ? "linear-gradient(180deg,hsla(0,0%,100%,.05),hsla(0,0%,100%,0))"
+      : "linear-gradient(180deg,hsla(0,0%,100%,.8),hsla(0,0%,100%,0))",
+  ".Mui-focusVisible &": {
+    outline: "2px auto rgba(19,124,189,.6)",
+    outlineOffset: 2,
+  },
+  "input:hover ~ &": {
+    backgroundColor: theme.palette.mode === "dark" ? "#30404d" : "#ebf1f5",
+  },
+  "input:disabled ~ &": {
+    boxShadow: "none",
+    background: theme.palette.mode === "dark" ? "rgba(57,75,89,.5)" : "rgba(206,217,224,.5)",
+  },
+}));
+
+const BpCheckedIcon = styled(BpIcon)({
+  backgroundColor: "#47d416",
+  backgroundImage: "linear-gradient(180deg,hsla(0,0%,100%,.1),hsla(0,0%,100%,0))",
+  "&::before": {
+    display: "block",
+    width: 15,
+    height: 15,
+    borderRadius: "50%",
+    backgroundColor: "#ffffff",
+    content: '""',
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+  },
+  "input:hover ~ &": {
+    backgroundColor: "#19f839",
+  },
+});
+
+// Custom Radio component
+export default function BpRadio(props) {
+  return <Radio disableRipple color='default' checkedIcon={<BpCheckedIcon />} icon={<BpIcon />} {...props} />;
+}
+
+// Radio Button component with title and description
+function RadioBtn({ title, description, name, value, checked, onChange }) {
+  return (
+    <div className='flex flex-row items-center'>
+      <BpRadio name={name} value={value} checked={checked} onChange={onChange} />
+      <p className='text-[16.8px] text-[#333333] font-medium'>{title}</p>
+      <p className='text-[16.8px] text-[#A6A5AE] font-medium pl-1'>{description}</p>
+    </div>
+  );
+}

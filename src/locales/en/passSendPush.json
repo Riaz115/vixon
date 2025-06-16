@@ -1,0 +1,13 @@
+{
+  "title": "Pass | Send-Push",
+  "pushmsg": "Push text in a side preview of the service with emojies 👀 🎫 💬 😍",
+  "toastsuc": "message send successfully",
+  "failnotmsg": "failed to send notification",
+  "sendpushnotification": "Send Push Notification",
+  "descriptions": " This message will appear on customers phones locked screens and also under on the backs of their cards.",
+  "forallcus": "For All Customers",
+  "schedule": "Schedule",
+  "send": "Send",
+  "now": "Now",
+  "sendpush": "Send Push"
+}

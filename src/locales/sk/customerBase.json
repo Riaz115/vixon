@@ -1,0 +1,14 @@
+{
+  "searchbyname": "Hľadať podľa používateľského mena ....",
+  "username": "POUŽÍVATEĽSKÉ MENO",
+  "created": "VYTVORENÉ",
+  "birthdate": "DÁTUM NARODENIA",
+  "phone": "TELEFÓN",
+  "email": "E-MAIL",
+  "device": "ZAŘÍZENÍ",
+  "cardStatus": "STAV KARTY",
+  "nofound": "Žiadny zákazník nenájdený",
+  "show": "Zobraziť",
+  "shown": "Zobrazené",
+  "from": "z"
+}

@@ -1,0 +1,14 @@
+{
+  "delmsg": "zákazník bol úspešne odstránený",
+  "failmsg": "nepodarilo sa odstrániť zákazníka",
+  "updatemsg": "zákazník bol úspešne aktualizovaný",
+  "updatefail": "nepodarilo sa aktualizovať zákazníka",
+  "title": "Informácie o zákazníkovi",
+  "firstname": "Meno",
+  "info": "Informácie",
+  "lastname": "Priezvisko",
+  "dob": "Dátum narodenia",
+  "email": "Email",
+  "save": "Uložiť",
+  "delete": "Odstrániť"
+}

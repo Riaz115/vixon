@@ -1,0 +1,17 @@
+{
+  "title": "Chat | Push Automation",
+  "comapnyname": "Company Name",
+  "pushMsg": "Push text in a side preview of the service with emojies 👀 🎫 💬 😍",
+  "successMsg": "push automation updated successfully",
+  "sendPushNot": "Send Push Notification",
+  "phoneMsg": " This message will appear on customers phones locked screens and also under on the backs of their cards.",
+  "selectcard": "Select Card",
+  "active": "Active",
+  "inactive": "Inactive",
+  "now": "Now",
+  "feedBackText": "Request will be sent after setting count hours earned bonuses",
+  "nextVisitRemainder": "Reminder will be sent after setting count days after last earned",
+  "congratMsg": "Congratulation will be sent after setting count days before birthday",
+  "message": "Message",
+  "save": "Save"
+}

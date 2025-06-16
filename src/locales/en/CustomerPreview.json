@@ -1,0 +1,9 @@
+{
+  "custinfo": "Customer Information",
+  "fname": "First Name",
+  "lname": "Last Name",
+  "phone": "Phone No",
+  "dob": "Date Of Birth",
+  "email": "Email",
+  "instondev": "Install ON Device"
+}

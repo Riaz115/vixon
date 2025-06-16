@@ -1,0 +1,13 @@
+{
+  "sendNotifications": "Send Notifications",
+  "bodymsg": " You are about to send a message to",
+  "customer": "Customer",
+  "preview": "Preview :",
+  "companyname": "Company Name",
+  "msgbdy": "Your custom message here.",
+  "msg": "Message",
+  "typemsg": "Type your message here....",
+  "emptymsg": "Message cannot be empty.",
+  "cancel": "Cancel",
+  "send": "Send"
+}

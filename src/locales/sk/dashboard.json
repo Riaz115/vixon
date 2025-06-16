@@ -1,0 +1,24 @@
+{
+    "dashboard": "Dashboard",
+    "time": {
+        "Day": "Deň",
+        "Week": "Týždeň",
+        "Month": "Mesiac",
+        "Year": "Rok",
+        "All Time": "Celkový čas"
+    },
+    "Visits": "Návštevy",
+    "totalVisits": "Celkový počet návštev",
+    "totalPurchaseAmount": "Celková suma nákupov",
+    "purchase": "nákup",
+    "totaltransactions": "Celkový počet transakcií",
+    "transaction": "Transakcia",
+    "newclients": "Noví klienti",
+    "client": "Klient",
+    "issuedCards": "Vydané karty",
+    "Cards": "Karty",
+    "device": "Zariadenie",
+    "Google Wallet": "Google Wallet",
+    "PWA": "PWA",
+    "Apple Wallet": "Apple Wallet"
+}

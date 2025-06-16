@@ -1,0 +1,17 @@
+{
+  "title": "Customer Send Push",
+  "pushmsg": "Push text in a side preview of the service with emojies 👀 🎫 💬 😍",
+  "sucmsg": "send message successfully",
+  "failmsg": "failed to send message",
+  "sendpushnot": "Send Push Notification",
+  "desc": " This message will appear on customers phones locked screens and also under on the backs of their cards.",
+  "sendpush": "Send Push",
+  "card": "Card",
+  "schdule": "Schedule",
+  "entmsg": "Enter Your Message",
+  "send": "Send",
+  "active": "Active",
+  "inactive": "InActive",
+  "companyname": "Compnay Name",
+  "now": "Now"
+}

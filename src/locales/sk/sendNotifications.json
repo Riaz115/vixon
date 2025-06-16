@@ -1,0 +1,13 @@
+{
+  "sendNotifications": "Odoslať notifikácie",
+  "bodymsg": "Chystáte sa odoslať správu zákazníkovi",
+  "customer": "Zákazník",
+  "preview": "Náhľad :",
+  "companyname": "Názov spoločnosti",
+  "msgbdy": "Vaša vlastná správa tu.",
+  "msg": "Správa",
+  "typemsg": "Napíšte svoju správu tu....",
+  "emptymsg": "Správa nemôže byť prázdna.",
+  "cancel": "Zrušiť",
+  "send": "Odoslať"
+}

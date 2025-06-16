@@ -1,0 +1,20 @@
+{
+  "custinfo": "Customer Information",
+  "fname": "First Name",
+  "lname": "Last Name",
+  "dob": "Date Of Birth",
+  "phone": "Phone No",
+  "email": "Email",
+  "intondevice": "Install On Device",
+  "passpreview": "Pass Preview",
+  "passsetting": "Pass Setting",
+  "nodata": "No Data",
+  "redempoint": "Redeem Point",
+  "addpoint": "Add Point",
+  "activeStamps": "Active Stamps",
+  "avstamps": "Available Stamps",
+  "avrews": "Available Rewards",
+  "cardexpdate": "Card Expiration Date",
+  "cardinstdate": "Card Installation Date",
+  "lastaccural": "Last Accrual"
+}

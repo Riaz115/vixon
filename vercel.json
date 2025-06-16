@@ -1,0 +1,15 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],  
+    "build": {
+      "env": {
+        "CI": "false",
+        "NODE_ENV": "production"
+      }
+    }
+  
+}

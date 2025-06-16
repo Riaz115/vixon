@@ -1,0 +1,20 @@
+{
+  "custinfo": "Informácie o zákazníkovi",
+  "fname": "Meno",
+  "lname": "Priezvisko",
+  "dob": "Dátum narodenia",
+  "phone": "Telefónne číslo",
+  "email": "Email",
+  "intondevice": "Inštalovať na zariadenie",
+  "passpreview": "Náhľad preukazu",
+  "passsetting": "Nastavenie preukazu",
+  "nodata": "Žiadne dáta",
+  "redempoint": "Uplatniť bod",
+  "addpoint": "Pridať bod",
+  "activeStamps": "Aktívne pečiatky",
+  "avstamps": "Dostupné pečiatky",
+  "avrews": "Dostupné odmeny",
+  "cardexpdate": "Dátum expirácie karty",
+  "cardinstdate": "Dátum inštalácie karty",
+  "lastaccural": "Posledná akumulácia"
+}

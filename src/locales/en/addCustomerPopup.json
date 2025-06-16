@@ -1,0 +1,14 @@
+{
+  "namereq": "Fist Name is Required",
+  "lastName": "Last Name is Required",
+  "valiedemailreq": "A Valid Email is Required",
+  "phonereq": "Phone number is required",
+  "datofbirreq": "Date of birth required",
+  "addcustomer": "Add Customer",
+  "firstname": "First Name",
+  "lastname": "Last Name",
+  "email": "Email",
+  "phoneno": "Enter Phone Number",
+  "dob": "Date of birth",
+  "cancel": "Cancel"
+}

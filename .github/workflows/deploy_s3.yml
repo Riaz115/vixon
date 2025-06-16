@@ -1,0 +1,42 @@
+name: Build and Deploy to S3
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the code
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Step 2: Set up Node.js with the required version test commit
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '20'
+
+      # Step 3: Install dependencies with npm
+      - name: Install dependencies
+        run: npm install --legacy-peer-deps
+
+      # Step 4: Build the app
+      - name: Build app
+        run: npm run build --ignore-warnings
+
+      # Step 5: Upload the build folder to S3
+      - name: Upload to S3
+        uses: jakejarvis/s3-sync-action@v0.1.0
+        with:
+          args: --acl public-read --region eu-central-1
+        env:
+          SOURCE_DIR: build/
+          AWS_S3_BUCKET: ${{ secrets.S3_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: 'eu-central-1'
+

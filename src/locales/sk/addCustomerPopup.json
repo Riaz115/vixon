@@ -1,0 +1,14 @@
+{
+  "namereq": "Meno je povinné",
+  "lastName": "Priezvisko je povinné",
+  "valiedemailreq": "Vyžaduje sa platný e-mail",
+  "phonereq": "Telefónne číslo je povinné",
+  "datofbirreq": "Dátum narodenia je povinný",
+  "addcustomer": "Pridať zákazníka",
+  "firstname": "Meno",
+  "lastname": "Priezvisko",
+  "email": "E-mail",
+  "phoneno": "Zadajte telefónne číslo",
+  "dob": "Dátum narodenia",
+  "cancel": "Zrušiť"
+}

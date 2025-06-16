@@ -1,0 +1,291 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap'); */
+
+@font-face {
+  font-family: "Manrope";
+  src: url("/fonts/Manrope-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("/fonts/Manrope-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("/fonts/Manrope-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("/fonts/Manrope-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("/fonts/Manrope-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("/fonts/Manrope-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("/fonts/Manrope-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+  transition: 0.1s ease;
+}
+body {
+  font-family: "Manrope";
+  background-color: #f7f7f8;
+}
+.white-image {
+  filter: invert(100%) brightness(200%);
+}
+
+.black-image {
+  filter: invert(0%) brightness(200%);
+}
+
+@media (max-width: 639px) {
+  .white-image {
+    filter: invert(0%) brightness(0%);
+  }
+  .black-image {
+    filter: invert(100%) brightness(200%);
+  }
+}
+
+/* DND */
+.component-container {
+  transition: transform 0.2s ease;
+  
+}
+
+.dragging {
+  transform: scale(0.99);
+  opacity: 0.4;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+/* For Chrome, Edge, and Safari */
+.hide-scrollbar::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* For Firefox */
+.hide-scrollbar {
+  scrollbar-width: none;
+}
+
+/* For Internet Explorer 10+ */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+}
+
+.test{
+  border: 1px solid red;
+}
+.test1{
+  border: 1px solid blue;
+}
+.custom_date::content{
+color: red !important;
+}
+
+._inputDatePicker_t87o7_1 {
+  background-color: var(--color-white);
+  border: .1rem solid #D5D5DD;
+  border-radius: .4rem;
+  font-family: inherit;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  padding: .8rem 4.2rem .8rem 1.6rem;
+  width: 100%;
+  display: block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: none;
+  color: #1f1e1f;
+  transition-property: color, background-color, border-color;
+  transition-duration: var(--transition-duration);
+  min-height: 0;
+  text-overflow: ellipsis;
+  background-image: url("data:image/svg+xml, %3Csvg%20width=%2224%22%20height=%2224%22%20viewBox=%220%200%2024%2024%22%20fill=%22none%22%20xmlns=%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20fill-rule=%22evenodd%22%20clip-rule=%22evenodd%22%20d=%22M17%203H18.5C19.8807%203%2021%204.11929%2021%205.5V18.5074C21%2019.8881%2019.8807%2021.0074%2018.5%2021.0074H5.5C4.11929%2021.0074%203%2019.8881%203%2018.5074V5.5C3%204.11929%204.11929%203%205.5%203H7V2.5C7%202.22386%207.22386%202%207.5%202C7.77614%202%208%202.22386%208%202.5V3H16V2.5C16%202.22386%2016.2239%202%2016.5%202C16.7761%202%2017%202.22386%2017%202.5V3ZM16%204H8V4.5C8%204.77614%207.77614%205%207.5%205C7.22386%205%207%204.77614%207%204.5V4H5.5C4.67157%204%204%204.67157%204%205.5V8H20V5.5C20%204.67157%2019.3284%204%2018.5%204H17V4.5C17%204.77614%2016.7761%205%2016.5%205C16.2239%205%2016%204.77614%2016%204.5V4ZM4%209H20V18.5074C20%2019.3358%2019.3284%2020.0074%2018.5%2020.0074H5.5C4.67157%2020.0074%204%2019.3358%204%2018.5074V9Z%22%20fill=%22%239F9FA7%22%2F%3E%0A%3C%2Fsvg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: right 1.2rem center;
+  background-size: 2.4rem 2.4rem;
+}
+.PhoneInputInput:focus {
+  border: none !important;
+  outline: none !important;
+  background-color: white !important;;
+  /* box-shadow: none !important; */
+}
+.disabled-icon {
+  opacity: 0.5; /* Makes the icon semi-transparent */
+  pointer-events: none; /* Prevents interaction */
+
+}
+
+.scalable-container {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  height: 220px
+}
+
+.scale-content {
+  /* display: inline-block;  */
+  transform: scale(0.33); /* Adjust the scale as needed */
+  transform-origin: center center;
+  transition: transform 0.2s ease-in-out;
+   /* Keep scaling from the center */
+
+}
+.pdf-only {
+  display: none;
+}
+
+@media print {
+  .pdf-only {
+    display: block;
+  }
+}
+body {
+  position: static;
+  top: 0px !important;
+}
+iframe.skiptranslate {
+display: none !important;
+}
+.VIpgJd-ZVi9od-aZ2wEe{
+  display: none !important;
+}
+.VIpgJd-ZVi9od-aZ2wEe-wOHMyf{
+  display: none !important;
+}
+#goog-gt-original-text{
+  display: none !important;
+}
+.VIpgJd-yAWNEb-hvhgNd{
+  display: none !important;
+}
+
+.emulater{
+  transform: scale(0.9);
+}
+
+.loader {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 32px 0 #fff, -32px 0 #fff;
+  position: relative;
+  animation: flash 0.5s ease-out infinite alternate;
+}
+
+@keyframes flash {
+  0% {
+    background-color: #FFF2;
+    box-shadow: 32px 0 #FFF2, -32px 0 #FFF;
+  }
+  50% {
+    background-color: #FFF;
+    box-shadow: 32px 0 #FFF2, -32px 0 #FFF2;
+  }
+  100% {
+    background-color: #FFF2;
+    box-shadow: 32px 0 #FFF, -32px 0 #FFF2;
+  }
+}
+      
+
+.barcode-video-container {
+  width: 500px;
+  height: 500px;
+  background-color: #000; /* Ensures the area is visible even without a feed */
+  border-radius: 10px;
+}
+
+@layer utilities {
+  .notranslate {
+    translate: none; /* Optional: Custom utility */
+  }
+}
+
+
+.longtext {
+  word-break:break-all;
+  overflow-wrap: break-word;
+  display: block;
+  width: "100%";
+}
+
+.custom-gap {
+  gap: auto; /* This may need adjustment depending on browser support */
+}
+
+.rdrMonth{
+  width: 100% !important;
+}
+
+.spinner2 {
+  border: 4px solid rgba(0, 0, 0, 0.3);
+  /* Semi-transparent white */
+  border-top: 4px solid #ffffff;
+  /* White */
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
+

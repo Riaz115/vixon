@@ -1,0 +1,19 @@
+{
+  "detail": "Detail",
+  "firstname": "Meno",
+  "last": "Priezvisko",
+  "phone": "Telefón",
+  "email": "Email",
+  "sumstamcount": "Súhrnný počet pečiatok",
+  "stampuntilrew": "Pečiatky do odmeny",
+  "avialablereward": "Dostupné odmeny",
+  "descstatus": "Stav zľavy",
+  "descper": "Percento zľavy",
+  "rewforfirstvisit": "Odmena za prvú návštevu",
+  "companyname": "Názov spoločnosti",
+  "earnstampmsgs": "Správy o získaní pečiatky",
+  "earnrewmsg": "Správa o získaní odmeny",
+  "termofuse": "Podmienky používania",
+  "isrinfo": "Informácie o vydaní",
+  "tapformoredetail": "Klepnutím zobrazíte viac podrobností"
+}

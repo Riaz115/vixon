@@ -1,0 +1,13 @@
+{
+  "title": "Pass | Send-Push",
+  "pushmsg": "Push text v náhľade služby s emojimi 👀 🎫 💬 😍",
+  "toastsuc": "správa bola úspešne odoslaná",
+  "failnotmsg": "zlyhalo odoslanie oznámenia",
+  "sendpushnotification": "Odoslať Push Oznámenie",
+  "descriptions": "Táto správa sa zobrazí na zamknutých obrazovkách telefónov zákazníkov a tiež pod ich kartami.",
+  "forallcus": "Pre všetkých zákazníkov",
+  "schedule": "Plánovať",
+  "send": "Odoslať",
+  "now": "Teraz",
+  "sendpush": "Odoslať Push"
+}

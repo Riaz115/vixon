@@ -1,0 +1,9 @@
+{
+  "custinfo": "Informácie o zákazníkovi",
+  "fname": "Meno",
+  "lname": "Priezvisko",
+  "phone": "Telefónne číslo",
+  "dob": "Dátum narodenia",
+  "email": "Email",
+  "instondev": "Nainštalovať na zariadenie"
+}

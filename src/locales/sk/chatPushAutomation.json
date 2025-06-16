@@ -1,0 +1,17 @@
+{
+  "title": "Chat | Automatizácia Push",
+  "comapnyname": "Názov spoločnosti",
+  "pushMsg": "Push text v bočnom náhľade služby s emoji 👀 🎫 💬 😍",
+  "successMsg": "Push automatizácia bola úspešne aktualizovaná",
+  "sendPushNot": "Odoslať push upozornenie",
+  "phoneMsg": "Táto správa sa zobrazí na uzamknutých obrazovkách zákazníkov a tiež na zadných stranách ich kariet.",
+  "selectcard": "Vybrať kartu",
+  "active": "Aktívny",
+  "inactive": "Neaktívny",
+  "now": "Teraz",
+  "feedBackText": "Žiadosť bude odoslaná po nastavení počtu hodín pre získané bonusy",
+  "nextVisitRemainder": "Pripomienka bude odoslaná po nastavení počtu dní od posledného získaného bonusu",
+  "congratMsg": "Blahoželanie bude odoslané po nastavení počtu dní pred narodeninami",
+  "message": "Správa",
+  "save": "Uložiť"
+}
